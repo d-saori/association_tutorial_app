@@ -1,2 +1,7 @@
-<h1>Messages#index</h1>
-<p>Find me in app/views/messages/index.html.erb</p>
+<%= link_to '新規投稿', new_message_path %>
+<hr>
+<% @messages.each do |message| %>
+  <%# message.user:メッセージを投稿したユーザーのオブジェクトが取得できる(messageテーブルとusersテーブルを関連付けた為) %>
+  【投稿者名】 <%= message.user.name %> 【内容】 <%= message.content %>
+  <hr>
+<% end %>
