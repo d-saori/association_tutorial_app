@@ -1,4 +1,6 @@
-User.create!(name: '大地', age: 53)
-User.create!(name: '前野', age: 30)
-User.create!(name: '原田', age: 54)
-puts "初期データを投入しました"
+Message.create!(user_id: 1, content: 'おはよう')
+Message.create!(user_id: 2, content: 'こんにちは')
+Message.create!(user_id: 1, content: 'こんばんは')
+Message.create!(user_id: 3, content: 'テスト')
+Message.create!(user_id: 1, content: 'おやすみ')
+puts "初期データを投入しました。"
