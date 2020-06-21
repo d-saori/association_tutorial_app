@@ -1,24 +1,7 @@
-# README
+# アソシエーション学習
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- 環境
+  - macOS Mojave バージョン10.14.6
+  - Ruby バージョン 2.6.5
+  - Rails バージョン 5.2.4.3
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
