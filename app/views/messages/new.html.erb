@@ -1,2 +1,5 @@
-<h1>Messages#new</h1>
-<p>Find me in app/views/messages/new.html.erb</p>
+<%= form_with model: @message, local: true do |form| %>
+  【ユーザー】 <%= form.collection_select :user_id, @users, :id, :name %>
+  【内容】 <%= form.text_field :content %>
+  <%= form.submit '投稿' %>
+<% end %>
